@@ -1,0 +1,54 @@
+{
+  "name": "wpSetting",
+  "version": "1.0.0",
+  "description": "#### 项目介绍 wpSetting  webpack-setting",
+  "homepage": "http:///childeSiteName",
+  "main": "webpack.js",
+  "scripts": {
+    "build": "node ./script/build.js",
+    "start": "node ./script/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:lam1/wpSetting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-async-generator-functions": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-async-to-generator": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "address": "^1.0.3",
+    "babel-loader": "^8.0.4",
+    "chalk": "^2.4.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.1",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.1.0",
+    "url": "^0.11.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-manifest-plugin": "^2.0.4"
+  },
+  "dependencies": {
+    "promise": "^8.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
