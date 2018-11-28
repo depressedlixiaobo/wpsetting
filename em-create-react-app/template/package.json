@@ -12,7 +12,7 @@
     "author": "libo",
     "license": "MIT2",
     "dependencies": {
-      "libra-react-dev": "1.0.8"
+      "libra-react-dev": "1.1.0"
     }
   }
   

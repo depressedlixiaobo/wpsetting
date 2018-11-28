@@ -1,15 +1,16 @@
 {
   "name": "libra-react-dev",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+   
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    
+  },
+  "dependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-async-generator-functions": "^7.1.0",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
@@ -38,9 +39,7 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9",
-    "webpack-manifest-plugin": "^2.0.4"
-  },
-  "dependencies": {
+    "webpack-manifest-plugin": "^2.0.4",
     "promise": "^8.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"

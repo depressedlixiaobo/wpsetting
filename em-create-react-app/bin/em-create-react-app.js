@@ -26,9 +26,10 @@ fs.mkdir(appName).then(()=>{
     .then(()=>{
           //第二个成功
           let pmArr = [];
-          ['.gitignore','.npmrc','package.json'].forEach((item,index)=>{
-            pmArr.push( fs.copy(path.resolve(templateDir,item),path.resolve(appDir,item)).then(()=>{
-                console.log('完成 '+item)
+          ['_gitignore','_npmrc','package.json'].forEach((item,index)=>{
+              let replceName = item.startsWith('_')? item.replace('_','.') :item
+            pmArr.push( fs.copy(path.resolve(templateDir,item),path.resolve(appDir,replceName)).then(()=>{
+                console.log('完成 '+replceName)
              })
             )
           })
