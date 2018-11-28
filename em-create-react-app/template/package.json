@@ -8,7 +8,7 @@
       "em-create-react-app"
     ],
     "scripts":{
-      "run":"libra-react-dev "
+      "run":"libra-react-dev start"
     },
     "author": "libo",
     "license": "MIT2",
