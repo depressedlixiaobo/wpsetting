@@ -1,6 +1,6 @@
 {
   "name": "em-create-react-app",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "bin": {
     "em-create-react-app": "./bin/em-create-react-app.js"
