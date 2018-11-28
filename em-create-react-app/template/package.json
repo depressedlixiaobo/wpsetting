@@ -2,13 +2,14 @@
     "name": "yourapp",
     "version": "1.0.0",
     "description": "",
-    "bin": {
-      "em-create-react-app": "./bin/em-create-react-app.js"
-    },
+     
     "scripts": {},
     "keywords": [
       "em-create-react-app"
     ],
+    "scripts":{
+      "run":"libra-react-dev "
+    },
     "author": "libo",
     "license": "MIT2",
     "dependencies": {
